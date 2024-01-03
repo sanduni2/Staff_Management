@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('https://assets-jb.fmg-services.co.uk/SLJ/uploads/hub/advices/501_1000/GettyImages-825155270.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.welcome-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+	 /* Set button size */
+    width: 400px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+.row{
+  display: flex;
+  padding: 10px;
+  margin-top: 1.3rem;
+  justify-content: space-between;
+}
+.row p{
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+.row p span{
+  color: blueviolet;
+}
+.job_card{
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border: 2px solid rgb(190, 190, 190);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.job_details{
+  display: flex;
+}
+.job_details .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job_details .img i{
+  width: 70px;
+  font-size: 3rem;
+  margin-left: 1rem;
+  padding: 10px;
+  color: rgb(82, 22, 138);
+  background: rgb(216, 205, 226);
+}
+.job_details .text{
+  margin-left: 2.3rem;
+}
+.job_details .text span{
+  color: rgb(116, 112, 112);
+}
+.job_salary{
+  text-align: right;
+  color: rgb(54, 54, 54);
+}
+.job_card:active{
+  border: 2px solid blueviolet;
+  transition: 0.4s;
+}
+
+
+
+
+
+
+
